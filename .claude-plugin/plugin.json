@@ -1,11 +1,11 @@
 {
-  "name": "will-my-claude",
+  "name": "will-public-claude",
   "description": "cmux 터미널에서 Claude Code를 더 잘 활용하기 위한 스킬 모음. 패인 분할, 내장 브라우저, 사이드바, 알림 등을 자동 활용합니다.",
   "version": "1.0.0",
   "author": {
     "name": "sdgranger"
   },
-  "repository": "https://github.com/sdgranger/will-my-claude",
+  "repository": "https://github.com/sdgranger/will-public-claude",
   "license": "MIT",
   "keywords": ["cmux", "terminal", "browser", "automation"]
 }

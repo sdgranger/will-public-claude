@@ -1,11 +1,11 @@
 {
-  "name": "will-my-claude",
+  "name": "will-public-claude",
   "plugins": [
     {
-      "name": "will-my-claude",
+      "name": "will-public-claude",
       "source": {
         "source": "github",
-        "repo": "sdgranger/will-my-claude"
+        "repo": "sdgranger/will-public-claude"
       },
       "version": "1.0.0"
     }

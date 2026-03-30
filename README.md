@@ -1,4 +1,4 @@
-# will-my-claude
+# will-public-claude
 
 Claude Code를 더 잘 활용하기 위한 스킬, 설정 모음입니다.
 
@@ -15,8 +15,8 @@ Claude Code를 더 잘 활용하기 위한 스킬, 설정 모음입니다.
 Claude Code에서 아래 명령을 실행하세요:
 
 ```
-/plugin marketplace add sdgranger/will-my-claude
-/plugin install will-my-claude
+/plugin marketplace add sdgranger/will-public-claude
+/plugin install will-public-claude
 ```
 
 GitHub에 업데이트가 올라오면 자동으로 반영됩니다.
@@ -26,10 +26,10 @@ GitHub에 업데이트가 올라오면 자동으로 반영됩니다.
 플러그인 대신 파일을 직접 복사할 수도 있습니다 (자동 업데이트 없음):
 
 ```bash
-git clone https://github.com/sdgranger/will-my-claude.git
+git clone https://github.com/sdgranger/will-public-claude.git
 mkdir -p ~/.claude/skills/cmux/references
-cp will-my-claude/skills/cmux/SKILL.md ~/.claude/skills/cmux/
-cp will-my-claude/skills/cmux/references/* ~/.claude/skills/cmux/references/
+cp will-public-claude/skills/cmux/SKILL.md ~/.claude/skills/cmux/
+cp will-public-claude/skills/cmux/references/* ~/.claude/skills/cmux/references/
 ```
 
 ### (선택) 사이드바 hooks 설정
@@ -37,7 +37,7 @@ cp will-my-claude/skills/cmux/references/* ~/.claude/skills/cmux/references/
 사이드바에 알림 링, "Running" 상태 등이 **자동 표시**되길 원하면 hooks를 추가로 설정하세요:
 
 ```bash
-bash will-my-claude/setup/setup-cmux-hooks.sh
+bash will-public-claude/setup/setup-cmux-hooks.sh
 ```
 
 스킬만으로도 cmux 활용에는 문제없습니다. hooks는 사이드바 연동만 추가합니다.
