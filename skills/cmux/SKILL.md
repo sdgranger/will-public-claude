@@ -1,12 +1,10 @@
 ---
 name: cmux
 description: >
-  Control the cmux terminal multiplexer from Claude Code. cmux is a native macOS
-  terminal with split panes, an embedded browser, sidebar metadata, and notifications.
-  Use this skill whenever running inside cmux (CMUX_WORKSPACE_ID is set) to split
-  panes for builds/tests, inspect local web UIs with the built-in browser, show
-  progress in the sidebar, send notifications on task completion, and manage
-  parallel workspaces. Not related to tmux.
+  Low-level cmux CLI debugging and manual control only. For running processes use
+  cmux-run, for parallel tasks use cmux-parallel, for browser testing use cmux-browser.
+  Use this skill only for troubleshooting that high-level skills cannot handle, or
+  when the user explicitly wants direct cmux CLI control. Not related to tmux.
 allowed-tools: Bash(cmux *)
 ---
 
