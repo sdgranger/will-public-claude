@@ -1,16 +1,28 @@
 {
-  "name": "will-public-claude",
-  "owner": {
-    "name": "sdgranger"
-  },
-  "plugins": [
-    {
-      "name": "will-public-claude",
-      "source": {
-        "source": "github",
-        "repo": "sdgranger/will-public-claude"
+    "name": "will-public-claude",
+    "owner": {
+      "name": "sdgranger"
+    },
+    "plugins": [
+      {
+        "name": "will-public-claude-cmux",
+        "source": {
+          "source": "git-subdir",
+          "url": "https://github.com/sdgranger/will-public-claude.git",
+          "path": ".claude-plugin/cmux",
+          "ref": "main"
+        },
+        "version": "1.1.0"
       },
-      "version": "1.1.0"
-    }
-  ]
-}
+      {
+        "name": "will-public-claude-skillify",
+        "source": {
+          "source": "git-subdir",
+          "url": "https://github.com/sdgranger/will-public-claude.git",
+          "path": ".claude-plugin/skillify",
+          "ref": "main"
+        },
+        "version": "1.1.0"
+      }
+    ]
+  }
