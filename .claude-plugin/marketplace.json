@@ -1,28 +1,21 @@
 {
-    "name": "will-public-claude",
-    "owner": {
-      "name": "sdgranger"
-    },
-    "plugins": [
-      {
-        "name": "will-public-claude-cmux",
-        "source": {
-          "source": "git-subdir",
-          "url": "https://github.com/sdgranger/will-public-claude.git",
-          "path": ".claude-plugin/cmux",
-          "ref": "main"
-        },
-        "version": "1.1.0"
-      },
-      {
-        "name": "will-public-claude-skillify",
-        "source": {
-          "source": "git-subdir",
-          "url": "https://github.com/sdgranger/will-public-claude.git",
-          "path": ".claude-plugin/skillify",
-          "ref": "main"
-        },
-        "version": "1.1.0"
-      }
-    ]
-  }
+  "name": "will-public-claude",
+  "owner": {
+    "name": "sdgranger"
+  },
+  "metadata": {
+    "description": "Claude Code 스킬 모음. cmux 터미널 자동 활용, 대화 기록 기반 스킬 자동 생성(skillify) 등을 지원합니다.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "will-public-claude",
+      "source": "./",
+      "description": "Claude Code 스킬 모음. cmux 터미널 자동 활용, 대화 기록 기반 스킬 자동 생성(skillify) 등을 지원합니다.",
+      "version": "1.1.0",
+      "keywords": ["cmux", "terminal", "browser", "automation", "skillify", "workflow", "skill-generator"],
+      "category": "productivity",
+      "skills": "./skills/"
+    }
+  ]
+}
