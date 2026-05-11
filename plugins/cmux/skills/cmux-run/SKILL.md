@@ -1,10 +1,6 @@
 ---
 name: cmux-run
-description: >
-  Run a long-running process (server, build, test) in a separate cmux pane with
-  automatic pane reuse, process conflict detection, sidebar status, and completion
-  notification. Use when you need to start a process in a separate pane and monitor
-  it. Requires CMUX_WORKSPACE_ID to be set.
+description: Run a server/build/test in a separate cmux pane with monitoring and completion notification.
 allowed-tools: Bash(cmux *)
 ---
 

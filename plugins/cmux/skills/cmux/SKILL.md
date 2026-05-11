@@ -1,10 +1,6 @@
 ---
 name: cmux
-description: >
-  Low-level cmux CLI debugging and manual control only. For running processes use
-  cmux-run, for parallel tasks use cmux-parallel, for browser testing use cmux-browser.
-  Use this skill only for troubleshooting that high-level skills cannot handle, or
-  when the user explicitly wants direct cmux CLI control. Not related to tmux.
+description: Low-level cmux CLI control for troubleshooting. Prefer cmux-run, cmux-parallel, or cmux-browser for normal tasks.
 allowed-tools: Bash(cmux *)
 ---
 

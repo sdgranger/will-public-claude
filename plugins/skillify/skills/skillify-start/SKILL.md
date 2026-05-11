@@ -1,9 +1,6 @@
 ---
 name: skillify-start
-description: >
-  Start recording a workflow session so that /skillify captures only the work done after this marker.
-  Use when the user wants to record a specific portion of a session into a reusable skill, not the full history.
-  Trigger phrases: 'skillify-start', 'start recording', 'start skill recording', 'begin skillify recording'.
+description: Mark the start of a session so /skillify captures only subsequent work, not full history.
 allowed-tools: []
 ---
 

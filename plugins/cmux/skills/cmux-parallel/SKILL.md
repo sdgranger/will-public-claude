@@ -1,10 +1,6 @@
 ---
 name: cmux-parallel
-description: >
-  Run multiple processes in parallel across cmux panes or workspaces. Manages pane
-  layout, per-task status tracking, and aggregate completion notification. Use when
-  you need to run 2+ independent processes simultaneously. Requires CMUX_WORKSPACE_ID
-  to be set.
+description: Run 2+ independent processes in parallel across cmux panes with per-task status tracking.
 allowed-tools: Bash(cmux *)
 ---
 

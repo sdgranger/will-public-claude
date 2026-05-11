@@ -1,10 +1,6 @@
 ---
 name: cmux-browser
-description: >
-  Open and interact with local web UIs in the cmux embedded browser. Handles browser
-  pane reuse, page inspection via snapshot, and form interaction. Use when you need
-  to verify a web UI, fill forms, or check page content. Requires CMUX_WORKSPACE_ID
-  to be set.
+description: Open and interact with local web UIs in the cmux embedded browser for verification and testing.
 allowed-tools: Bash(cmux *)
 ---
 

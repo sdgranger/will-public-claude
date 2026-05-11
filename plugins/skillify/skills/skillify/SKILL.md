@@ -1,12 +1,6 @@
 ---
 name: skillify
-description: >
-  Capture a repeatable workflow from the current conversation into a portable SKILL.md file.
-  Analyzes conversation history, git artifacts, and tool usage to reconstruct context,
-  then interviews the user and generates a complete skill definition.
-  Use when the user wants to turn a session into a reusable skill, automate a repeated process,
-  or save a workflow for later. Trigger phrases: 'skillify', 'turn this into a skill',
-  'save this as a skill', 'make a skill from this', 'capture this workflow'.
+description: Capture the current conversation into a reusable SKILL.md file. Use when saving a workflow as a skill.
 allowed-tools:
   - Read
   - Write
