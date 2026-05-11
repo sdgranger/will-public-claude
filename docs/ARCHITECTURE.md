@@ -33,7 +33,7 @@ com.example.app
 
 ---
 
-## 2. 이 프로젝트가 표준에서 벗어나는 결정 (반드시 따를 것)
+## 2. 규칙 (반드시 따를 것)
 
 ### 2.1 도메인은 100% 순수 POJO + Snapshot 양방향 패턴
 - 도메인 엔티티에 JPA/Spring/Lombok/Jackson/Validation 어노테이션 **일체 금지**
